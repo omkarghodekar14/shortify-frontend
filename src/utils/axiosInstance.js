@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosInstance = axios.create({
-    baseURL: import.meta.env.VITE_BACKEND_BASE_URL,
+    baseURL: "https://shortify-o6vy.onrender.com",
     timeout:10000, //10s
     withCredentials:true
 })
